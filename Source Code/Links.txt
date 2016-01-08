@@ -1,0 +1,6 @@
+iOS
+	https://itunes.apple.com/us/app/cloudthink-motion-context/id847636184?mt=8
+Android
+	https://play.google.com/store/apps/details?id=com.jsiegel.mitmotionapp&hl=en
+
+Connect to 54.87.86.71:5625 for the IP:Port. Generate a unique UID for uploading.

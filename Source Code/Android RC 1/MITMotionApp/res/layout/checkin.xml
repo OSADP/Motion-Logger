@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header_bg" >
+
+        <TextView
+            android:id="@+id/headerTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/checkin"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="10dp"
+            android:rowCount="5" >
+
+            <Button
+                android:id="@+id/checkin_btn_walking"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:tag="0"
+                android:text="Walking"
+                android:width="130dp" />
+
+            <Button
+                android:id="@+id/checkin_btn_bus"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:tag="1"
+                android:text="Bus"
+                android:width="130dp" />
+
+            <Button
+                android:id="@+id/checkin_btn_running"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:tag="2"
+                android:text="Running"
+                android:width="130dp" />
+
+            <Button
+                android:id="@+id/checkin_btn_airplane"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:tag="3"
+                android:text="Airplane"
+                android:width="130dp" />
+
+            <Button
+                android:id="@+id/checkin_btn_cycling"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:tag="4"
+                android:text="Cycling"
+                android:width="130dp" />
+
+            <Button
+                android:id="@+id/checkin_btn_train"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:tag="5"
+                android:text="Train"
+                android:width="130dp" />
+
+            <Button
+                android:id="@+id/checkin_btn_driving"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:tag="6"
+                android:text="Driving"
+                android:width="130dp" />
+
+            <Button
+                android:id="@+id/checkin_btn_boat"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:tag="7"
+                android:text="Boat"
+                android:width="130dp" />
+
+            <Button
+                android:id="@+id/checkin_btn_stationary"
+                android:layout_columnSpan="2"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:tag="8"
+                android:text="Stationary"
+                android:width="130dp" />
+        </GridLayout>
+    </ScrollView>
+
+</RelativeLayout>

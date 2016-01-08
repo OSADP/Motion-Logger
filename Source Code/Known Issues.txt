@@ -1,0 +1,2 @@
+iOS Notes
+	CoreData is not implemented, therefore data storage is not persistent when application is closed.

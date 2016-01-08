@@ -1,0 +1,3 @@
+Key contributors to the development of MIT Motion App include: Josh Siegel.  The work was completed with the advice of Dr. Stephen Ho in the laboratory of Dr. Sanjay Sarma.
+
+The research was completed under contract with the Volpe Center at the U.S. Department of Transportation in support of the Intelligent Transportation Systems Joint Program Office.
